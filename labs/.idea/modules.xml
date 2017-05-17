@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lab1/streamlab.iml" filepath="$PROJECT_DIR$/lab1/streamlab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab2/tasklab.iml" filepath="$PROJECT_DIR$/lab2/tasklab.iml" />
+    </modules>
+  </component>
+</project>
