@@ -1,0 +1,7 @@
+java -jar labs/jars/http-source-rabbit-2.1.0.RELEASE.jar --spring.cloud.stream.bindings.output.destination=streamlabdest1 --server.port=9001
+
+java -jar labs/jars/http-source-rabbit-2.1.0.RELEASE.jar --spring.cloud.stream.bindings.output.destination=streamlabdest1 --server.port=9001
+
+java -jar labs/lab1/target/streamlab-0.0.1-SNAPSHOT.jar --spring.cloud.stream.bindings.input.destination=streamlabdest1 --spring.cloud.stream.bindings.output.destination=streamlabdest2 --server.port=9002
+
+java -jar labs/jars/log-sink-rabbit-2.1.0.RELEASE.jar --spring.cloud.stream.bindings.input.destination=streamlabdest2 --server.port=9003
